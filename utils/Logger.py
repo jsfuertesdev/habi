@@ -3,24 +3,25 @@ import os
 import traceback
 
 
-class Logger():
+class Logger:
 
     def __set_logger(self):
-        log_directory = 'utils/logs'
-        log_filename = 'app.log'
+        log_directory = "utils/logs"
+        log_filename = "app.log"
 
         logger = logging.getLogger(__name__)
         logger.setLevel(logging.DEBUG)
 
         log_path = os.path.join(log_directory, log_filename)
-        file_handler = logging.FileHandler(log_path, encoding='utf-8')
+        file_handler = logging.FileHandler(log_path, encoding="utf-8")
         file_handler.setLevel(logging.DEBUG)
 
         formatter = logging.Formatter(
-            '%(asctime)s | %(levelname)s | %(message)s', "%Y-%m-%d %H:%M:%S")
+            "%(asctime)s | %(levelname)s | %(message)s", "%Y-%m-%d %H:%M:%S"
+        )
         file_handler.setFormatter(formatter)
 
-        if (logger.hasHandlers()):
+        if logger.hasHandlers():
             logger.handlers.clear()
 
         logger.addHandler(file_handler)
@@ -32,15 +33,15 @@ class Logger():
         try:
             logger = cls.__set_logger(cls)
 
-            if (level == "critical"):
+            if level == "critical":
                 logger.critical(message)
-            elif (level == "debug"):
+            elif level == "debug":
                 logger.debug(message)
-            elif (level == "error"):
+            elif level == "error":
                 logger.error(message)
-            elif (level == "info"):
+            elif level == "info":
                 logger.info(message)
-            elif (level == "warn"):
+            elif level == "warn":
                 logger.warn(message)
         except Exception as ex:
             print(traceback.format_exc())
