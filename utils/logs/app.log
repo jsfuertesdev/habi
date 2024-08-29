@@ -1,0 +1,52 @@
+
+2024-08-29 00:57:31 | INFO | Starting server on port 8000...
+2024-08-29 00:57:35 | INFO | Received request path: /properties
+2024-08-29 00:57:35 | INFO | Reading JSON file: ./src/payload.json
+2024-08-29 00:57:35 | INFO | File JSON read successfully.
+2024-08-29 00:57:36 | INFO | Database connection established.
+2024-08-29 00:57:36 | INFO | Successfully handled request for properties
+2024-08-29 00:57:55 | INFO | Received request path: /properties&state=%22preventa%22
+2024-08-29 00:57:55 | INFO | Reading JSON file: ./src/payload.json
+2024-08-29 00:57:55 | INFO | File JSON read successfully.
+2024-08-29 00:57:56 | INFO | Database connection established.
+2024-08-29 00:57:56 | INFO | Successfully handled request for properties
+2024-08-29 00:57:59 | INFO | Received request path: /properties&state=%22preventa%22
+2024-08-29 00:57:59 | INFO | Reading JSON file: ./src/payload.json
+2024-08-29 00:57:59 | INFO | File JSON read successfully.
+2024-08-29 00:58:00 | INFO | Database connection established.
+2024-08-29 00:58:00 | INFO | Successfully handled request for properties
+2024-08-29 00:58:58 | INFO | Received request path: /properties&state=%22preventa%22
+2024-08-29 00:58:58 | INFO | Reading JSON file: ./src/payload.json
+2024-08-29 00:58:58 | INFO | File JSON read successfully.
+2024-08-29 00:58:59 | INFO | Database connection established.
+2024-08-29 00:58:59 | INFO | Successfully handled request for properties
+2024-08-29 00:58:59 | INFO | Received request path: /properties
+2024-08-29 00:58:59 | INFO | Reading JSON file: ./src/payload.json
+2024-08-29 00:58:59 | INFO | File JSON read successfully.
+2024-08-29 00:59:00 | INFO | Database connection established.
+2024-08-29 00:59:01 | INFO | Successfully handled request for properties
+2024-08-29 00:59:10 | INFO | Received request path: /properties
+2024-08-29 00:59:10 | INFO | Reading JSON file: ./src/payload.json
+2024-08-29 00:59:10 | INFO | File JSON read successfully.
+2024-08-29 00:59:11 | INFO | Database connection established.
+2024-08-29 00:59:11 | INFO | Successfully handled request for properties
+2024-08-29 00:59:19 | INFO | Received request path: /properties&state=%22preventa%22
+2024-08-29 00:59:19 | INFO | Reading JSON file: ./src/payload.json
+2024-08-29 00:59:19 | INFO | File JSON read successfully.
+2024-08-29 00:59:20 | INFO | Database connection established.
+2024-08-29 00:59:20 | INFO | Successfully handled request for properties
+2024-08-29 01:22:52 | INFO | Received request path: /properties
+2024-08-29 01:22:52 | INFO | Reading JSON file: ./src/payload.json
+2024-08-29 01:22:52 | INFO | File JSON read successfully.
+2024-08-29 01:22:53 | INFO | Database connection established.
+2024-08-29 01:22:53 | INFO | Successfully handled request for properties
+2024-08-29 01:23:12 | INFO | Received request path: /properties
+2024-08-29 01:23:12 | INFO | Reading JSON file: ./src/payload.json
+2024-08-29 01:23:12 | INFO | File JSON read successfully.
+2024-08-29 01:23:13 | INFO | Database connection established.
+2024-08-29 01:23:13 | INFO | Successfully handled request for properties
+2024-08-29 01:35:18 | INFO | Received request path: /properties
+2024-08-29 01:35:18 | INFO | Reading JSON file: ./src/payload.json
+2024-08-29 01:35:18 | INFO | File JSON read successfully.
+2024-08-29 01:35:19 | INFO | Database connection established.
+2024-08-29 01:35:19 | INFO | Successfully handled request for properties
